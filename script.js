@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // ------------- Fetch Teams -------------
 async function fetchTeams() {
   // Replace this URL with your own deployed Apps Script link
-  const url = "https://script.google.com/macros/s/AKfycbwQrVAvqtdsYgAcWhD7zel5hwoydkkGY1LLYno6dpevg_P_bqjD7cv2cwhCTR1yhTe5/exec";
+  const url = "https://script.google.com/macros/s/AKfycbzcDUoQrA8845-7ksPHlrLWWcogrSoMwG90Sw-S5WgiUWEN6qPDUZTtwPsNW3zA6EZW/exec";
 
   try {
     const response = await fetch(url);
@@ -399,7 +399,7 @@ async function submitScore() {
     startLoadingAnimation();
 
     await fetch(
-      'https://script.google.com/macros/s/AKfycbwQrVAvqtdsYgAcWhD7zel5hwoydkkGY1LLYno6dpevg_P_bqjD7cv2cwhCTR1yhTe5/exec',
+      'https://script.google.com/macros/s/AKfycbzcDUoQrA8845-7ksPHlrLWWcogrSoMwG90Sw-S5WgiUWEN6qPDUZTtwPsNW3zA6EZW/exec',
       {
         method: 'POST',
         mode: 'no-cors',
